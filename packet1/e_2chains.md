@@ -1,4 +1,4 @@
-# 2Chains
+# 2 Chains
 
 Given a DAG (directed acyclic graph) containing *N* nodes and *M* edges, find the longest path containing only "2".
 
@@ -20,8 +20,10 @@ Print each node on a new line. If no 2's exist in the graph, do not print anythi
 
 ## Constraints
 
+```
 0 <= N <= 10
 0 <= M <= (N-1)!
+```
 
 ## Sample
 ```
