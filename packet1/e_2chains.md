@@ -6,9 +6,9 @@ Nodes hold the values, and node numbering starts at 0.
 
 ## Input
 
-First line: *N* and *M*, space separated.
-Second line: *N* nonnegative integers, representing the value of each of the *N* nodes.
-Each of the next *M* lines: space separated nonnegative integers I, J representing an edge from I to J.
+ - First line: *N* and *M*, space separated.
+ - Second line: *N* nonnegative integers, representing the value of each of the *N* nodes.
+ - Each of the next *M* lines: space separated nonnegative integers I, J representing an edge from I to J.
 
 There is guaranteed to be at most one edge between any two nodes. 
 
@@ -21,8 +21,12 @@ Print each node on a new line. If no 2's exist in the graph, do not print anythi
 ## Constraints
 
 ```
-0 <= N <= 10
-0 <= M <= (N-1)!
+EASY: 0 <= N <= 10
+HARD: 0 <= N <= 1000
+
+0 <= M <= N*(N-1)/2
+
+Max Runtime: 30 seconds
 ```
 
 ## Sample
