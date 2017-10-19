@@ -14,9 +14,9 @@ Your droids can sense the following information from the identifiers: the number
 1 corresponds to a raised dot, 0 to an unraised dot.
 
 ## Input
-First line: 2 space separated integers: *N*, *S* the number of digits in this number and the "classified" identifier *S*
-Second line: 3 space separated integers: x0 x1, x2 the number of raised dots in the first, second, and third rows.
-Row *i* of the next *N* lines: 2 space separated integers: number of raised dots in the first and second column of the *i*th digit
+ - First line: 2 space separated integers: *N*: the number of digits in this number, and *S*: the "classified" identifier
+ - Second line: 3 space separated integers: x0 x1, x2 the number of raised dots in the first, second, and third rows.
+ - Row *i* of the next *N* lines: 2 space separated integers: number of raised dots in the first and second column of the *i*th digit
 
 Note: *S* may have leading zeroes.
 
