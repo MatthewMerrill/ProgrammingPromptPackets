@@ -25,18 +25,24 @@ Note: *S* may have leading zeroes.
 "yes"/"no", whether to burn this file.
 
 ## Sample
+
+### Input
 ```
-10 0123456789 | yes
-14 11 0       |
-1 2           |
-1 0           |
-2 0           |
-1 1           |
-1 2           |
-1 1           |
-2 1           |
-2 2           |
-2 1           |
-1 1           |
+10 0123456789
+14 11 0
+1 2
+1 0
+2 0
+1 1
+1 2
+1 1
+2 1
+2 2
+2 1
+1 1
 ```
 
+### Output
+```
+yes
+```

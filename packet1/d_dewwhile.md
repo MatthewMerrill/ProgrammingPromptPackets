@@ -39,13 +39,20 @@ One "yes"/"no" per line, one line per case corresponding with whether you'll mak
 All inputs will fit in a 16 bit signed integer.
 
 ## Sample
-
+### Input
 ```
-5             | yes
-11 8          | no
-11 7          | no
-16 30         | yes
-16379 13      | no
--1998 6       | 
+5
+11 8
+11 7
+16 30
+16379 13
+-1998 6
 ```
-
+### Output
+```
+yes
+no
+no
+yes
+no
+```
