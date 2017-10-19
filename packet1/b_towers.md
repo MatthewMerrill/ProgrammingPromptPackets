@@ -15,12 +15,22 @@ N towers of asterisks, sorted as described. Under each tower, print its id lette
 No more than 26 towers, each of height ranging from 0 to 20. All identifiers are unique and consist of a single uppercase letter.
 
 ## Sample
+### Input
 ```
-5       |     *
-2 A     |     *
-2 B     |     *
-2 C     |  ****
-1 D     | *****
-5 E     | DABCE
+5
+2 A
+2 B
+2 C
+1 D
+5 E
 ```
 
+### Output
+```
+    *
+    *
+    *
+ ****
+*****
+DABCE
+```

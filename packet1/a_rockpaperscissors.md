@@ -26,10 +26,12 @@ A string containing the string to verify for RPS Compliance.
 "yes"/"no"
 
 ## Sample
+### Input
 ```
-RPS     | yes
-        |
-        |
+RPS
 ```
-
+### Output
+```
+yes
+```
 
