@@ -1,6 +1,6 @@
 # Braille Gun
 
-QUICK! You're an Automated Combustion Mechanic for the rebel forces. Your task is to build an autonomous robot to burn files containing classified material. The only problem is that the rebellion was too carried making self-driving X-Wings to allocate you any cameras. You'll have to use the braille indentations labelling each file.
+QUICK! You're an Automated Combustion Mechanic for the rebel forces. Your task is to build an autonomous robot to burn files containing classified material. The only problem is that the rebellion was too carried away making self-driving X-Wings to allocate you any cameras. You'll have to use the braille indentations labelling each file.
 
 Your droids can sense the following information from the identifiers: the number of raised dots in a row and number of raised dots in a column. Write a program that, given the number of raised dots per row/column, identify whether this file could be classified. Paper is expensive here on this ice planet, so don't burn any files you don't have to!
 
