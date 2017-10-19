@@ -14,7 +14,7 @@ There is guaranteed to be at most one edge between any two nodes.
 
 ## Output
 
-The longest path containing only "2"s. If two paths contain the same count, choose the one with the smaller value in the first position. If there is still a conflict, smaller second position. (etc.)
+The longest path containing only "2"s. If two paths contain the same count, choose the one with the smaller index in the first position. If there is still a conflict, smaller second position. (etc.)
 
 Print each node on a new line. If no 2's exist in the graph, do not print anything.
 
