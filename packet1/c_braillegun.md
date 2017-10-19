@@ -4,6 +4,8 @@ QUICK! You're an Automated Combustion Mechanic for the rebel forces. Your task i
 
 Your droids can sense the following information from the identifiers: the number of raised dots in a row and number of raised dots in a column. Write a program that, given the number of raised dots per row/column, identify whether this file could be classified. Paper is expensive here on this ice planet, so don't burn any files you don't have to!
 
+Below is a braille numbering guide:
+
 ```
 0  1  2  3  4  5  6  7  8  9
 01 10 10 11 11 10 11 11 10 01
